@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    min-height: 100vh;
+    max-height: max-content;
+    box-shadow: 2px 1px 10px 10px #f6f6f6;
+    background: #F6F6F6;;
+    width: 100%;
+}
+.main{
+    width: 100%;
+    max-height: max-content;
+    position: relative;
+}
+.home{
+    background-color: #FFF;
+}
+nav .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #868686;
+}
+nav ul li{
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #868686;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    width: 100%;
+    max-height: max-content;
+    min-height: 100px;
+}
+
+.leftt p{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.centerText{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.rotatet{
+    transform: rotateZ(-90deg);
+    font-weight: normal;
+}
+.rotatet span{
+    font-weight: 600;
+}
+.image-container img{
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+
+    /*  2-Part */
+
+.theme{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 40px 0; 
+}
+
+    /* 3-Part */
+
+.skills{
+    background-color: #FFF;
+}
+
+    /* 4-Part */
+.port{
+    margin: 60px 0;
+}
+.images{
+    margin: 20px;
+}
+
+.linkStore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #898989;
+    margin: 4px 0;
+}
+
+    /* 5-Part */
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+    background-color: #FFF;
+}
+.contact .image-container{
+    margin: 20px 0;
+}
+.contact button{
+    background-color: #070707;
+    border-radius: 50px;
+    height: 50px;
+    width: 220px;
+    color: #FFF;
+    margin-bottom: 20px;
+}
+.contact .centerText{
+    margin-bottom: 20px;
+}

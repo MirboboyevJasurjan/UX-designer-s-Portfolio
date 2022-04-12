@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: max-content;
+    min-height: 100vh;
+}
+
+.body{
+    background: #F6F6F6;
+}
+section{
+    min-height: 100vh;
+    max-height: max-content;
+    width: 100%;
+}
+.theme{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+
+}
+.navbar{
+    border-bottom: 1px solid #868686;
+}
+.navbar a{
+    color: #868686;
+    text-decoration: none;
+    font-weight: 500;
+}
+.center-text{
+    margin-left: 500px;
+    margin-top: -80px;
+}
+
+.center-text p{
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    align-items: center;
+    justify-content: center;
+
+}
+.langtext{
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: -130px;
+    margin-left: 1100px;
+    /* transform:rotateZ(-90deg); */
+}
+.image img{
+    margin-top: 200px;
+    width: 100%;
+    height: 500px;
+}
+
+@media(min-width: 768px){
+    .center-text{
+        margin-left: 0px;
+    }
+    .langtext{
+       margin: -130px 0px 0px 450px;
+    }
+    .center-text {
+        margin-left: 250px;
+    }
+}
+
+/* Part-2 || About */
+.about{
+    background-color: #F6F6F6;
+    width: 100%;
+    height: 500px;
+}
+.theme{
+    text-align: center;
+    justify-content: center;
+}
+.about .h5{
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+
+/* Part-3 || Skills */
+
+.skills{
+    background-color: #FFF;
+    width: 100%;
+    height: 400px;
+}
+.image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    box-sizing: border-box;
+    width: 100%;
+}
+.image-container img {
+    align-items: center;
+    margin: 10px 0px ;
+}
+.sk-text{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.sk-text .display-6{
+    font-weight: 500;
+    margin-top: 10px;
+}
+.skil-links{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.skil-links a{
+    text-align: center;
+    text-decoration: none;
+    color: #868686;
+    margin-left: 100px;
+    margin-right: 80px;
+}
